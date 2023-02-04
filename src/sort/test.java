@@ -10,7 +10,7 @@ public class test {
 		int low = 0;
 		int high = x.length - 1;
 		quickSort(x, low, high);
-		System.out.println(Arrays.toString(x));
+		//System.out.println(Arrays.toString(x));
 	}
 
 	public static void quickSort(int[] arr, int low, int high) {
